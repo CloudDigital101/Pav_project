@@ -1,6 +1,8 @@
 import nltk
 from nltk import Tree
 
+from par3 import demo
+
 # Read the file
 file_path = "/Users/achraffaress/Documents/GitHub/Pav_project/formatted_sentences.txt"
 with open(file_path, "r") as file:
@@ -29,7 +31,9 @@ def combine_grammar(trees):
 def format_grammar(rules_dict):
     grammar_str = ""
     for lhs, rhs_set in sorted(rules_dict.items()):
-        rhs_str = " | ".join(sorted(rhs_set))  # Join all right-hand sides with ' | '
+        if lhs == "''" or lhs == "``":
+            continue
+        rhs_str = " | ".join(sorted(rhs_set)).replace("(", "").replace(")", "").replace(",", "").replace("``", "")  # Join all right-hand sides with ' | ' and remove parentheses
         grammar_str += f"  {lhs} -> {rhs_str}\n"
     return grammar_str
 
@@ -40,4 +44,5 @@ combined_rules = combine_grammar(tree_strings)
 demo_grammar = format_grammar(combined_rules)
 
 # Print the formatted grammar
-print(f"demo_grammar = \"\"\"\n{demo_grammar}\"\"\"")
+#print(demo_grammar)
+demo(grammer_input= demo_grammar)
