@@ -52,4 +52,4 @@ with open(output_file_path, 'w', encoding='utf-8') as output_file:
         # Check if the sentence is not empty or None
         if sentence and sentence.strip() != '':
             parsed_tree = next(parser.raw_parse(sentence))
-            output_file.write(str(parsed_tree))
+            output_file.write(str(parsed_tree).strip().replace('\n', '') + "\n")
