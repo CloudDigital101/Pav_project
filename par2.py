@@ -33,7 +33,8 @@ def format_grammar(rules_dict):
     for lhs, rhs_set in sorted(rules_dict.items()):
         if lhs == "''" or lhs == "``":
             continue
-        rhs_str = " | ".join(sorted(rhs_set)).replace("(", "").replace(")", "").replace(",", "").replace("``", "")  # Join all right-hand sides with ' | ' and remove parentheses
+        lhs = lhs.replace("$", "BB")
+        rhs_str = " | ".join(sorted(rhs_set)).replace("(", "").replace(")", "").replace(",", "").replace("``", "").replace("$", "BB")  # Join all right-hand sides with ' | ' and remove parentheses
         grammar_str += f"  {lhs} -> {rhs_str}\n"
     return grammar_str
 
