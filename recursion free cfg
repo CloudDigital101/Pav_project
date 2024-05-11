@@ -1,0 +1,995 @@
+ADJP -> VBN
+    ADVP -> DT PP
+    ADVP -> DT RBR
+    ADVP -> IN JJ
+    ADVP -> IN PP
+    ADVP -> IN RB
+    ADVP -> IN
+    ADVP -> JJ PP
+    ADVP -> JJ
+    ADVP -> NP JJR
+    ADVP -> NP RB
+    ADVP -> RB CC RB
+    ADVP -> RB NP
+    ADVP -> RB PP
+    ADVP -> RB RB
+    ADVP -> RB RB CC RB
+    ADVP -> RB RB RB
+    ADVP -> RB RBR
+    ADVP -> RB
+    ADVP -> RBR
+    CC -> 'and'
+    CC -> 'but'
+    CC -> 'or'
+    CD -> 'one'
+    CD -> 'seven'
+    CD -> 'thousand'
+    CD -> 'three'
+    CD -> 'two'
+    CONJP -> RB RB IN
+    DT -> 'a'
+    DT -> 'all'
+    DT -> 'an'
+    DT -> 'another'
+    DT -> 'any'
+    DT -> 'each'
+    DT -> 'no'
+    DT -> 'some'
+    DT -> 'that'
+    DT -> 'the'
+    DT -> 'these'
+    DT -> 'this'
+    EX -> 'there'
+    FRAG -> ADJP S SBAR
+    FRAG -> ADJP
+    FRAG -> ADVP ADVP
+    FRAG -> CC ADJP
+    FRAG -> CC NP
+    FRAG -> CC NP NP
+    FRAG -> CC NP PP
+    FRAG -> NP ADJP
+    FRAG -> NP PP
+    FRAG -> NP SBAR
+    FRAG -> NP
+    FRAG -> PP PP
+    FRAG -> PP
+    FRAG -> S NP
+    FRAG -> SBAR
+    FRAG -> VP
+    IN -> 'across'
+    IN -> 'after'
+    IN -> 'against'
+    IN -> 'along'
+    IN -> 'although'
+    IN -> 'among'
+    IN -> 'as'
+    IN -> 'at'
+    IN -> 'before'
+    IN -> 'beside'
+    IN -> 'by'
+    IN -> 'for'
+    IN -> 'from'
+    IN -> 'if'
+    IN -> 'in'
+    IN -> 'into'
+    IN -> 'like'
+    IN -> 'near'
+    IN -> 'o'
+    IN -> 'of'
+    IN -> 'on'
+    IN -> 'out'
+    IN -> 'over'
+    IN -> 'round'
+    IN -> 'than'
+    IN -> 'that'
+    IN -> 'though'
+    IN -> 'through'
+    IN -> 'to'
+    IN -> 'towards'
+    IN -> 'until'
+    IN -> 'up'
+    IN -> 'upon'
+    IN -> 'while'
+    IN -> 'with'
+    IN -> 'within'
+    IN -> 'without'
+    INTJ -> JJ NN
+    INTJ -> UH
+    JJ -> 'able'
+    JJ -> 'alive'
+    JJ -> 'alone'
+    JJ -> 'asleep'
+    JJ -> 'beautiful'
+    JJ -> 'black'
+    JJ -> 'bright'
+    JJ -> 'clean'
+    JJ -> 'clear'
+    JJ -> 'common'
+    JJ -> 'dead'
+    JJ -> 'dear'
+    JJ -> 'different'
+    JJ -> 'envious'
+    JJ -> 'fair'
+    JJ -> 'famous'
+    JJ -> 'fine'
+    JJ -> 'first'
+    JJ -> 'fourth'
+    JJ -> 'friendly'
+    JJ -> 'frightened'
+    JJ -> 'full'
+    JJ -> 'golden'
+    JJ -> 'good'
+    JJ -> 'gracious'
+    JJ -> 'great'
+    JJ -> 'green'
+    JJ -> 'hollow'
+    JJ -> 'hungry'
+    JJ -> 'innocent'
+    JJ -> 'jealous'
+    JJ -> 'last'
+    JJ -> 'light'
+    JJ -> 'likely'
+    JJ -> 'literary'
+    JJ -> 'little'
+    JJ -> 'lonely'
+    JJ -> 'long'
+    JJ -> 'lovely'
+    JJ -> 'near'
+    JJ -> 'new'
+    JJ -> 'old'
+    JJ -> 'other'
+    JJ -> 'overbearing'
+    JJ -> 'own'
+    JJ -> 'poisonous'
+    JJ -> 'poor'
+    JJ -> 'possible'
+    JJ -> 'proud'
+    JJ -> 'rare'
+    JJ -> 'ready'
+    JJ -> 'red'
+    JJ -> 'right'
+    JJ -> 'rosy'
+    JJ -> 'same'
+    JJ -> 'secret'
+    JJ -> 'senseless'
+    JJ -> 'seventh'
+    JJ -> 'sharp'
+    JJ -> 'short'
+    JJ -> 'small'
+    JJ -> 'snowwhite'
+    JJ -> 'snowwill'
+    JJ -> 'sure'
+    JJ -> 'terrible'
+    JJ -> 'thirsty'
+    JJ -> 'tidy'
+    JJ -> 'timeless'
+    JJ -> 'tired'
+    JJ -> 'true'
+    JJ -> 'und'
+    JJ -> 'underground'
+    JJ -> 'white'
+    JJ -> 'whole'
+    JJ -> 'wicked'
+    JJ -> 'wild'
+    JJ -> 'yellow'
+    JJ -> 'young'
+    JJR -> 'fairer'
+    JJR -> 'kinder'
+    JJR -> 'more'
+    JJR -> 'prettier'
+    JJS -> 'fairest'
+    MD -> 'can'
+    MD -> 'could'
+    MD -> 'dare'
+    MD -> 'may'
+    MD -> 'must'
+    MD -> 'shall'
+    MD -> 'should'
+    MD -> 'will'
+    MD -> 'would'
+    NML -> NN CC NN
+    NML -> NN NN
+    NML -> NN
+    NML -> S
+    NN -> 'anger'
+    NN -> 'anybody'
+    NN -> 'anything'
+    NN -> 'apple'
+    NN -> 'art'
+    NN -> 'astonishment'
+    NN -> 'avail'
+    NN -> 'bargain'
+    NN -> 'beauty'
+    NN -> 'bed'
+    NN -> 'bier'
+    NN -> 'bit'
+    NN -> 'blood'
+    NN -> 'boar'
+    NN -> 'bread'
+    NN -> 'breath'
+    NN -> 'bride'
+    NN -> 'bush'
+    NN -> 'castle'
+    NN -> 'chair'
+    NN -> 'chamber'
+    NN -> 'child'
+    NN -> 'cloth'
+    NN -> 'coffin'
+    NN -> 'collection'
+    NN -> 'comb'
+    NN -> 'cover'
+    NN -> 'cup'
+    NN -> 'cutlass'
+    NN -> 'daughter'
+    NN -> 'day'
+    NN -> 'death'
+    NN -> 'disappointment'
+    NN -> 'door'
+    NN -> 'dove'
+    NN -> 'drop'
+    NN -> 'dwarf'
+    NN -> 'earth'
+    NN -> 'ebony'
+    NN -> 'embroidery'
+    NN -> 'embroideryframe'
+    NN -> 'end'
+    NN -> 'envy'
+    NN -> 'evening'
+    NN -> 'everything'
+    NN -> 'face'
+    NN -> 'fairy'
+    NN -> 'fifth'
+    NN -> 'finger'
+    NN -> 'folk'
+    NN -> 'fork'
+    NN -> 'frame'
+    NN -> 'fright'
+    NN -> 'german'
+    NN -> 'girl'
+    NN -> 'glance'
+    NN -> 'glass'
+    NN -> 'gold'
+    NN -> 'goodday'
+    NN -> 'ground'
+    NN -> 'guard'
+    NN -> 'hair'
+    NN -> 'half'
+    NN -> 'hand'
+    NN -> 'harm'
+    NN -> 'hausmarchen'
+    NN -> 'head'
+    NN -> 'heart'
+    NN -> 'honor'
+    NN -> 'hour'
+    NN -> 'house'
+    NN -> 'huntsman'
+    NN -> 'jacob'
+    NN -> 'joy'
+    NN -> 'knife'
+    NN -> 'land'
+    NN -> 'life'
+    NN -> 'light'
+    NN -> 'loaf'
+    NN -> 'lookingglass'
+    NN -> 'luck'
+    NN -> 'magic'
+    NN -> 'maiden'
+    NN -> 'masterpiece'
+    NN -> 'mirror'
+    NN -> 'moment'
+    NN -> 'morning'
+    NN -> 'morsel'
+    NN -> 'motion'
+    NN -> 'mountain'
+    NN -> 'mouth'
+    NN -> 'name'
+    NN -> 'night'
+    NN -> 'nothing'
+    NN -> 'occupation'
+    NN -> 'one'
+    NN -> 'order'
+    NN -> 'owl'
+    NN -> 'paragon'
+    NN -> 'peace'
+    NN -> 'peasant'
+    NN -> 'peddler'
+    NN -> 'piece'
+    NN -> 'pierce'
+    NN -> 'pity'
+    NN -> 'place'
+    NN -> 'plan'
+    NN -> 'plate'
+    NN -> 'poison'
+    NN -> 'pomp'
+    NN -> 'porridge'
+    NN -> 'portion'
+    NN -> 'princess'
+    NN -> 'queen'
+    NN -> 'raven'
+    NN -> 'rest'
+    NN -> 'round'
+    NN -> 'ruin'
+    NN -> 'second'
+    NN -> 'seventh'
+    NN -> 'side'
+    NN -> 'silk'
+    NN -> 'sixth'
+    NN -> 'skin'
+    NN -> 'sky'
+    NN -> 'snow'
+    NN -> 'snowwhite'
+    NN -> 'snowwill'
+    NN -> 'something'
+    NN -> 'son'
+    NN -> 'sort'
+    NN -> 'splendor'
+    NN -> 'stepmother'
+    NN -> 'stepwill'
+    NN -> 'stone'
+    NN -> 'supper'
+    NN -> 'table'
+    NN -> 'tale'
+    NN -> 'terror'
+    NN -> 'third'
+    NN -> 'thorn'
+    NN -> 'throat'
+    NN -> 'time'
+    NN -> 'token'
+    NN -> 'truth'
+    NN -> 'wall'
+    NN -> 'wash'
+    NN -> 'water'
+    NN -> 'wedding'
+    NN -> 'wilhelm'
+    NN -> 'will'
+    NN -> 'window'
+    NN -> 'wine'
+    NN -> 'witch'
+    NN -> 'witchcraft'
+    NN -> 'woman'
+    NN -> 'wood'
+    NN -> 'world'
+    NNP -> 'english'
+    NNP -> 'glen'
+    NNP -> 'heaven'
+    NNP -> 'snowwhite'
+    NNS -> 'animals'
+    NNS -> 'apples'
+    NNS -> 'beasts'
+    NNS -> 'beds'
+    NNS -> 'birds'
+    NNS -> 'brethren'
+    NNS -> 'brothers'
+    NNS -> 'bushes'
+    NNS -> 'candles'
+    NNS -> 'cheeks'
+    NNS -> 'clothes'
+    NNS -> 'colors'
+    NNS -> 'comrades'
+    NNS -> 'days'
+    NNS -> 'drinkingcups'
+    NNS -> 'drops'
+    NNS -> 'dwarfs'
+    NNS -> 'eyes'
+    NNS -> 'feathers'
+    NNS -> 'feet'
+    NNS -> 'forks'
+    NNS -> 'knives'
+    NNS -> 'laces'
+    NNS -> 'letters'
+    NNS -> 'lips'
+    NNS -> 'lookingglass'
+    NNS -> 'masters'
+    NNS -> 'men'
+    NNS -> 'mountains'
+    NNS -> 'others'
+    NNS -> 'philologists'
+    NNS -> 'pieces'
+    NNS -> 'plates'
+    NNS -> 'quilts'
+    NNS -> 'servants'
+    NNS -> 'shoulders'
+    NNS -> 'sides'
+    NNS -> 'snowflakes'
+    NNS -> 'stones'
+    NNS -> 'stories'
+    NNS -> 'tales'
+    NNS -> 'times'
+    NNS -> 'trees'
+    NNS -> 'villagers'
+    NNS -> 'wares'
+    NNS -> 'woods'
+    NNS -> 'years'
+    NP -> ADJP
+    NP -> ADVP NN
+    NP -> CD JJ NNS
+    NP -> CD NN
+    NP -> CD NNS
+    NP -> CD
+    NP -> DT CD
+    NP -> DT CD JJ NNS
+    NP -> DT CD NN
+    NP -> DT CD NNS
+    NP -> DT JJ
+    NP -> DT JJ JJ NN
+    NP -> DT JJ JJ NNS
+    NP -> DT JJ NN
+    NP -> DT JJ NN CC NN
+    NP -> DT JJ NN NN
+    NP -> DT JJ NNS
+    NP -> DT JJS
+    NP -> DT NML
+    NP -> DT NML '' NN
+    NP -> DT NML NN
+    NP -> DT NN
+    NP -> DT NN NN
+    NP -> DT NN NNS
+    NP -> DT NNP
+    NP -> DT NNS
+    NP -> DT PRP
+    NP -> DT RB
+    NP -> DT VBN NN
+    NP -> DT
+    NP -> EX
+    NP -> JJ JJ
+    NP -> JJ JJ NNS
+    NP -> JJ NN
+    NP -> JJ NNS
+    NP -> JJ NNS S
+    NP -> JJ
+    NP -> JJR JJ NN
+    NP -> JJS
+    NP -> NML JJ NN
+    NP -> NML NN NNS
+    NP -> NML NNS
+    NP -> NN CC NN
+    NP -> NN JJ
+    NP -> NN NN NNS
+    NP -> NN NNS
+    NP -> NN S
+    NP -> NN
+    NP -> NNP
+    NP -> NNS CC NNS
+    NP -> NNS
+    NP -> PDT DT NN
+    NP -> PDT
+    NP -> PRPBB ADJP
+    NP -> PRPBB ADJP NN
+    NP -> PRPBB JJ NN
+    NP -> PRPBB JJ VBG NNS
+    NP -> PRPBB NML
+    NP -> PRPBB NN
+    NP -> PRPBB NN NN
+    NP -> PRPBB NNS
+    NP -> PRPBB
+    NP -> PRP NN
+    NP -> PRP
+    NP -> QP NN
+    NP -> QP
+    NP -> RB DT NN
+    NP -> TO
+    NP -> VBN CC VBN
+    NP -> VBN NN
+    NP -> VBN
+    NP-TMP -> DT NN
+    NP-TMP -> JJ NN
+    NP-TMP -> NN CC NN
+    PDT -> 'all'
+    PP -> ADVP IN NP
+    PP -> IN ADJP
+    PP -> IN ADVP
+    PP -> IN NP
+    PP -> IN S
+    PP -> IN SBAR
+    PP -> IN UCP
+    PP -> IN
+    PP -> RB IN NP
+    PRN -> S
+    PRN -> SBAR
+    PRP -> 'he'
+    PRP -> 'her'
+    PRP -> 'herself'
+    PRP -> 'him'
+    PRP -> 'i'
+    PRP -> 'it'
+    PRP -> 'me'
+    PRP -> 'one'
+    PRP -> 'she'
+    PRP -> 'them'
+    PRP -> 'they'
+    PRP -> 'thou'
+    PRP -> 'us'
+    PRP -> 'we'
+    PRP -> 'you'
+    PRPBB -> 'her'
+    PRPBB -> 'his'
+    PRPBB -> 'its'
+    PRPBB -> 'my'
+    PRPBB -> 'our'
+    PRPBB -> 'their'
+    PRPBB -> 'your'
+    PRT -> IN
+    PRT -> RP
+    QP -> DT CD
+    QP -> DT CD NNS
+    QP -> RB CD
+    RB -> 'about'
+    RB -> 'again'
+    RB -> 'alone'
+    RB -> 'aloud'
+    RB -> 'always'
+    RB -> 'as'
+    RB -> 'away'
+    RB -> 'breath'
+    RB -> 'cunningly'
+    RB -> 'directly'
+    RB -> 'down'
+    RB -> 'easily'
+    RB -> 'elsewhere'
+    RB -> 'even'
+    RB -> 'far'
+    RB -> 'first'
+    RB -> 'here'
+    RB -> 'home'
+    RB -> 'however'
+    RB -> 'inside'
+    RB -> 'just'
+    RB -> 'kind'
+    RB -> 'lastly'
+    RB -> 'long'
+    RB -> 'longer'
+    RB -> 'much'
+    RB -> 'never'
+    RB -> 'no'
+    RB -> 'not'
+    RB -> 'now'
+    RB -> 'once'
+    RB -> 'out'
+    RB -> 'pretty'
+    RB -> 'properly'
+    RB -> 'quickly'
+    RB -> 'quite'
+    RB -> 'rather'
+    RB -> 'so'
+    RB -> 'soon'
+    RB -> 'still'
+    RB -> 'then'
+    RB -> 'there'
+    RB -> 'tightly'
+    RB -> 'tis'
+    RB -> 'too'
+    RB -> 'very'
+    RB -> 'well'
+    RBR -> 'more'
+    RBR -> 'sooner'
+    ROOT -> ADVP
+    ROOT -> FRAG
+    ROOT -> INTJ
+    ROOT -> NP
+    ROOT -> PP
+    ROOT -> S
+    ROOT -> SBAR
+    ROOT -> SBARQ
+    ROOT -> SQ
+    ROOT -> X
+    RP -> 'down'
+    RP -> 'off'
+    RP -> 'on'
+    RP -> 'out'
+    RP -> 'up'
+    S -> ADJP PP
+    S -> ADJP
+    S -> ADVP ADVP NP
+    S -> ADVP INTJ NP VP
+    S -> ADVP NP VP
+    S -> ADVP PP NP VP
+    S -> ADVP SBAR
+    S -> ADVP VP
+    S -> CC ADVP
+    S -> CC ADVP NP VP
+    S -> CC ADVP VP
+    S -> CC NP
+    S -> CC NP ADVP VP
+    S -> CC NP VP
+    S -> CC PRN
+    S -> CC PRN NP VP
+    S -> CC SBAR
+    S -> CC SBAR NP VP
+    S -> CC SBAR PRN
+    S -> CC SBAR VP
+    S -> CC VP
+    S -> CONJP NP VP
+    S -> INTJ SBAR
+    S -> NP ADJP
+    S -> NP ADVP VP
+    S -> NP NP VP
+    S -> NP VP
+    S -> NP-TMP NP VP
+    S -> PP NP VP
+    S -> PP VP
+    S -> PRN ADVP NP VP
+    S -> PRN NP VP
+    S -> RB VP
+    S -> SBAR ADVP NP VP
+    S -> SBAR NP VP
+    S -> SBAR VP
+    S -> UCP
+    S -> VP
+    SBAR -> ADVP IN S
+    SBAR -> CC S
+    SBAR -> IN FRAG
+    SBAR -> IN IN S
+    SBAR -> IN NP VP
+    SBAR -> IN S
+    SBAR -> S
+    SBAR -> WHADVP FRAG
+    SBAR -> WHADVP S
+    SBAR -> WHNP S
+    SBAR -> WHNP
+    SBAR -> WHPP S
+    SBARQ -> WHADVP SQ
+    SBARQ -> WHNP SQ
+    SQ -> VBP S
+    SQ -> VBZ NP
+    SQ -> VP
+    TO -> 'to'
+    UCP -> ADVP CC SBAR
+    UCP -> NP CC SBAR
+    UCP -> S CC ADVP
+    UH -> 'oh'
+    VB -> 'ask'
+    VB -> 'be'
+    VB -> 'bear'
+    VB -> 'beware'
+    VB -> 'bid'
+    VB -> 'bring'
+    VB -> 'care'
+    VB -> 'carry'
+    VB -> 'clean'
+    VB -> 'come'
+    VB -> 'cook'
+    VB -> 'cost'
+    VB -> 'cut'
+    VB -> 'dance'
+    VB -> 'devour'
+    VB -> 'die'
+    VB -> 'dig'
+    VB -> 'disguise'
+    VB -> 'do'
+    VB -> 'drank'
+    VB -> 'draw'
+    VB -> 'finish'
+    VB -> 'get'
+    VB -> 'give'
+    VB -> 'go'
+    VB -> 'have'
+    VB -> 'hide'
+    VB -> 'keep'
+    VB -> 'kill'
+    VB -> 'know'
+    VB -> 'lace'
+    VB -> 'lack'
+    VB -> 'let'
+    VB -> 'live'
+    VB -> 'look'
+    VB -> 'lookingglass'
+    VB -> 'make'
+    VB -> 'manage'
+    VB -> 'open'
+    VB -> 'part'
+    VB -> 'put'
+    VB -> 'refrain'
+    VB -> 'rest'
+    VB -> 'run'
+    VB -> 'say'
+    VB -> 'see'
+    VB -> 'seem'
+    VB -> 'sell'
+    VB -> 'set'
+    VB -> 'sew'
+    VB -> 'sleep'
+    VB -> 'stand'
+    VB -> 'stay'
+    VB -> 'stir'
+    VB -> 'suit'
+    VB -> 'take'
+    VB -> 'think'
+    VB -> 'throw'
+    VB -> 'wake'
+    VB -> 'watch'
+    VB -> 'weep'
+    VB -> 'work'
+    VBD -> 'answered'
+    VBD -> 'asked'
+    VBD -> 'ate'
+    VBD -> 'awoke'
+    VBD -> 'became'
+    VBD -> 'began'
+    VBD -> 'bought'
+    VBD -> 'brought'
+    VBD -> 'called'
+    VBD -> 'came'
+    VBD -> 'caught'
+    VBD -> 'clothed'
+    VBD -> 'combed'
+    VBD -> 'committed'
+    VBD -> 'cried'
+    VBD -> 'cut'
+    VBD -> 'did'
+    VBD -> 'died'
+    VBD -> 'drawn'
+    VBD -> 'dressed'
+    VBD -> 'drew'
+    VBD -> 'fell'
+    VBD -> 'felt'
+    VBD -> 'flew'
+    VBD -> 'found'
+    VBD -> 'got'
+    VBD -> 'had'
+    VBD -> 'happened'
+    VBD -> 'hated'
+    VBD -> 'held'
+    VBD -> 'kept'
+    VBD -> 'killed'
+    VBD -> 'knew'
+    VBD -> 'knocked'
+    VBD -> 'laced'
+    VBD -> 'laid'
+    VBD -> 'lamented'
+    VBD -> 'laughed'
+    VBD -> 'lay'
+    VBD -> 'led'
+    VBD -> 'left'
+    VBD -> 'looked'
+    VBD -> 'made'
+    VBD -> 'opened'
+    VBD -> 'painted'
+    VBD -> 'pleased'
+    VBD -> 'pricked'
+    VBD -> 'put'
+    VBD -> 'raised'
+    VBD -> 'ran'
+    VBD -> 'read'
+    VBD -> 'remained'
+    VBD -> 'returned'
+    VBD -> 'rode'
+    VBD -> 'said'
+    VBD -> 'sat'
+    VBD -> 'saw'
+    VBD -> 'seemed'
+    VBD -> 'sent'
+    VBD -> 'set'
+    VBD -> 'slept'
+    VBD -> 'spoke'
+    VBD -> 'stayed'
+    VBD -> 'stood'
+    VBD -> 'stumbled'
+    VBD -> 'thought'
+    VBD -> 'threw'
+    VBD -> 'told'
+    VBD -> 'took'
+    VBD -> 'turned'
+    VBD -> 'unbarred'
+    VBD -> 'used'
+    VBD -> 'warned'
+    VBD -> 'was'
+    VBD -> 'went'
+    VBD -> 'wept'
+    VBD -> 'were'
+    VBD -> 'worked'
+    VBD -> 'wrote'
+    VBG -> 'being'
+    VBG -> 'blooming'
+    VBG -> 'casting'
+    VBG -> 'crying'
+    VBG -> 'cutting'
+    VBG -> 'doing'
+    VBG -> 'drinking'
+    VBG -> 'eating'
+    VBG -> 'falling'
+    VBG -> 'gazing'
+    VBG -> 'going'
+    VBG -> 'growing'
+    VBG -> 'having'
+    VBG -> 'holding'
+    VBG -> 'letting'
+    VBG -> 'living'
+    VBG -> 'looking'
+    VBG -> 'lying'
+    VBG -> 'relating'
+    VBG -> 'running'
+    VBG -> 'saying'
+    VBG -> 'shaking'
+    VBG -> 'sitting'
+    VBG -> 'suspecting'
+    VBG -> 'taking'
+    VBG -> 'tasting'
+    VBG -> 'thinking'
+    VBG -> 'using'
+    VBG -> 'working'
+    VBN -> 'been'
+    VBN -> 'born'
+    VBN -> 'buried'
+    VBN -> 'changed'
+    VBN -> 'combed'
+    VBN -> 'cooked'
+    VBN -> 'covered'
+    VBN -> 'deceived'
+    VBN -> 'dressed'
+    VBN -> 'eaten'
+    VBN -> 'forbidden'
+    VBN -> 'found'
+    VBN -> 'happened'
+    VBN -> 'held'
+    VBN -> 'knit'
+    VBN -> 'known'
+    VBN -> 'laced'
+    VBN -> 'laid'
+    VBN -> 'left'
+    VBN -> 'longed'
+    VBN -> 'looked'
+    VBN -> 'made'
+    VBN -> 'mourned'
+    VBN -> 'named'
+    VBN -> 'passed'
+    VBN -> 'peeped'
+    VBN -> 'poisoned'
+    VBN -> 'put'
+    VBN -> 'related'
+    VBN -> 'rid'
+    VBN -> 'rolled'
+    VBN -> 'run'
+    VBN -> 'salted'
+    VBN -> 'sought'
+    VBN -> 'spared'
+    VBN -> 'stretched'
+    VBN -> 'supposed'
+    VBN -> 'surpassed'
+    VBN -> 'taken'
+    VBN -> 'tempted'
+    VBN -> 'terrified'
+    VBN -> 'transcribed'
+    VBN -> 'variegated'
+    VBN -> 'washed'
+    VBN -> 'woven'
+    VBN -> 'written'
+    VBP -> 'am'
+    VBP -> 'are'
+    VBP -> 'beseech'
+    VBP -> 'consent'
+    VBP -> 'do'
+    VBP -> 'have'
+    VBP -> 'lace'
+    VBP -> 'like'
+    VBZ -> 'dwarfs'
+    VBZ -> 'escapes'
+    VBZ -> 'has'
+    VBZ -> 'is'
+    VBZ -> 'leaves'
+    VBZ -> 'lives'
+    VBZ -> 'tries'
+    VP -> ADVP VBN
+    VP -> MD ADVP
+    VP -> MD S
+    VP -> MD
+    VP -> SBAR
+    VP -> VB ADJP
+    VP -> VB ADVP
+    VP -> VB ADVP NP
+    VP -> VB ADVP PP
+    VP -> VB ADVP UCP
+    VP -> VB NP
+    VP -> VB NP ADVP
+    VP -> VB NP ADVP PP
+    VP -> VB NP NP
+    VP -> VB NP PP
+    VP -> VB NP PP ADVP
+    VP -> VB NP PRT PP
+    VP -> VB NP S
+    VP -> VB NP SBAR
+    VP -> VB PP
+    VP -> VB PP ADJP
+    VP -> VB PP PP
+    VP -> VB PP SBAR
+    VP -> VB PRT
+    VP -> VB PRT NP ADVP
+    VP -> VB S
+    VP -> VB SBAR
+    VP -> VB VP
+    VP -> VB
+    VP -> VBD ADJP
+    VP -> VBD ADJP PP
+    VP -> VBD ADJP SBAR
+    VP -> VBD ADVP
+    VP -> VBD ADVP NP-TMP
+    VP -> VBD ADVP PP
+    VP -> VBD ADVP PP PP
+    VP -> VBD ADVP S
+    VP -> VBD ADVP SBAR
+    VP -> VBD CC VBD NP
+    VP -> VBD NP
+    VP -> VBD NP ADVP
+    VP -> VBD NP ADVP PP
+    VP -> VBD NP NP
+    VP -> VBD NP NP-TMP
+    VP -> VBD NP PP
+    VP -> VBD NP PP PP
+    VP -> VBD NP PP SBAR
+    VP -> VBD NP PRT
+    VP -> VBD NP PRT PP
+    VP -> VBD NP PRT S
+    VP -> VBD NP S
+    VP -> VBD NP SBAR
+    VP -> VBD PP
+    VP -> VBD PP NP
+    VP -> VBD PP PP
+    VP -> VBD PP S
+    VP -> VBD PRT
+    VP -> VBD PRT NP
+    VP -> VBD PRT PP
+    VP -> VBD PRT S
+    VP -> VBD RB ADVP SBAR
+    VP -> VBD RB NP
+    VP -> VBD RB PP
+    VP -> VBD S
+    VP -> VBD S SBAR
+    VP -> VBD SBAR
+    VP -> VBD
+    VP -> VBG ADJP
+    VP -> VBG NP
+    VP -> VBG NP PP
+    VP -> VBG NP PRT
+    VP -> VBG PP
+    VP -> VBG PP PP
+    VP -> VBG PRT
+    VP -> VBG PRT NP
+    VP -> VBG PRT PP
+    VP -> VBG SBAR
+    VP -> VBG
+    VP -> VBN ADVP
+    VP -> VBN ADVP PP SBAR
+    VP -> VBN NP
+    VP -> VBN NP ADVP
+    VP -> VBN NP ADVP PP
+    VP -> VBN NP PP
+    VP -> VBN PP
+    VP -> VBN PP ADVP
+    VP -> VBN PP PP
+    VP -> VBN PP SBAR
+    VP -> VBN PRT PP
+    VP -> VBN S
+    VP -> VBN SBAR
+    VP -> VBN
+    VP -> VBP ADJP
+    VP -> VBP ADVP
+    VP -> VBP NP
+    VP -> VBP PP
+    VP -> VBP PP ADJP
+    VP -> VBP RB ADVP
+    VP -> VBP S
+    VP -> VBP SBAR
+    VP -> VBP
+    VP -> VBZ ADVP ADJP
+    VP -> VBZ ADVP S
+    VP -> VBZ NP
+    VP -> VBZ PP
+    VP -> RB ADJP
+    WDT -> 'that'
+    WDT -> 'what'
+    WDT -> 'whatever'
+    WDT -> 'which'
+    WHADVP -> WRB
+    WHNP -> WDT
+    WHNP -> WPBB NML
+    WHNP -> WPBB NP
+    WHNP -> WP
+    WHPP -> IN WHNP
+    WP -> 'what'
+    WP -> 'who'
+    WP -> 'whoever'
+    WPBB -> 'whose'
+    WRB -> 'how'
+    WRB -> 'when'
+    WRB -> 'where'
+    X -> IN
+    X -> PP
